@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+
+*{margin: 0px;
+padding: 0px;}
+
+body{
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.card-front{
+    background-image: url(images/bg-card-front.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+}
+
+.card-back{
+    background-image: url(images/bg-card-back.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+}
+
+container{
+    display: flex;
+    flex-direction: row;
+}

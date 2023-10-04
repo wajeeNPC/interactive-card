@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Card</title>
+  </head>
+  <body>
+    <container>
+      <div class="card-container">
+        <div class="card-front">
+            front
+        </div>
+        <div class="card-back">
+            back
+        </div>
+      </div>
+      <div class="cardinfo-container">
+        <form>
+          <h2>CARDHOLDER NAME</h2>
+          <input id="name" type="text" value="name" />
+          <h2>CARD NUMBER</h2>
+          <input id="cardnumber" type="text" value="cardnumber" />
+          <div class="date-con">
+            <h2>EXP. DATE (MM/YY)</h2>
+            <input type="text" maxlength="2" />
+            <input type="text" maxlength="2" />
+          </div>
+          <h2>CVC</h2>
+          <input type="text" maxlength="3" />
+          <button type="submit">Confirm</button>
+        </form>
+      </div>
+    </container>
+  </body>
 </html>
